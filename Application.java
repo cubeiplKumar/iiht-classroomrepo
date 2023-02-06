@@ -21,6 +21,13 @@ class Main {
     catch(Exception e) {
       e.getStackTrace();
     }
-  }
+  
+  #feature202 changes done by Harsha on Reports module on Jan2023
+  public static void sampleMethod(int a, int b) throws ArithmeticException{
+        System.out.println("Hello, this is sample method");
+        int c = a/b; //  int c = 4/2 which gets calculated as 2 
+        System.out.println("c:"+c); // c: 2
+   }
+
 }
 
