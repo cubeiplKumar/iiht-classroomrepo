@@ -22,5 +22,14 @@ class Main {
       e.getStackTrace();
     }
   }
+  #feature 201 changes done by Vivek on Services Module on Feb2023
+  
+  // reads all data from input.txt
+      sourceFile.read(array);
+
+      // writes all data to newFile
+      destFile.write(array);
+      System.out.println("The input.txt file is copied to newFile.");
+	  
 }
 
