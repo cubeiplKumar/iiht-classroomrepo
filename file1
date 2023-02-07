@@ -8,3 +8,9 @@ new changes made for the creditcard services
 
 done by dev2
 second commit changes
+
+
+git fetch and git pull command demo
+when developer working on any file in the local working directory or files
+he can fetch the latest commit files from remote repo into local repo using
+git fetch and then need to merge the changes
