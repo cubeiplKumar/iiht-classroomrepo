@@ -41,6 +41,7 @@ class Main {
       destFile.write(array);
       System.out.println("The input.txt file is copied to newFile.");
 	  
+
 	  #feature202 changes by suresh....on reports module on 07feb2023
 	   public String query(String search)
                        throws RemoteException
@@ -53,6 +54,13 @@ class Main {
  
         return result;
     }
+
+	#feature201 changes on 07-feb-2023 by vivek on services module
+		public interface Search extends Remote
+{
+    // Declaring the method prototype
+    public String query(String search) throws RemoteException;
+
 }
 	  
 
