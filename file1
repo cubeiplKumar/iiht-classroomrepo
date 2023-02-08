@@ -17,3 +17,7 @@ git fetch and then need to merge the changes
 second commit changes
 user reports
 mutual bonds reports
+Demo for the Gitwebhook job
+when developer commits or change any small change in code
+and push the code into code repos. Jenkins triggered an event and pull the
+latest changes into jenkins
